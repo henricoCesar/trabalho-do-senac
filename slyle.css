@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+    background-image: url("imag/3757c30a762387b.jpg");
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+header nav ul{
+    display: flex;
+    align-items: last baseline;
+    position: relative;
+    padding: 30px 0;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul a{
+   text-decoration:none ;
+   margin: 0 12px; 
+   padding: 8px 16px;
+   background-color: rgb(50, 175, 137);
+}
+
+header nav ul li{
+    list-style: none;
+}
+/*-----------------------------------------------------*/
+
+/*TEXTOS*/
+.texto {
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+/*-----------------------------------------------------*/
+
+/*CARDS*/
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    height: 350px;
+    width: 30px;
+    background-color: rgb(31, 165, 165);
+    border: 1px solid rgb(red, green, blue);
+    margin: 0 16px;
+    padding: 0 50px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px rgba(red, green, blue, alpha);
+}
+
+.card i span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.card p{
+    text-align: center;
+    text-align: justify;
+    padding: 20px 0 ;
+    font-family: 'Smooch Sans', sans-serif;
+}
+/*-----------------------------------------------------*/
+
+/*IMAGEM DO CARDS*/
+.imag{
+    text-align: center;
+    height: 30%;
+}
+/*-----------------------------------------------------*/
+
+/*CONTATO*/
+#contact{
+    display: flex;
+}
+
+#contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    padding: 0 80px;
+}
+
+#map iframe{
+    width: 300px;
+    height: 250px;
+}
+
+#contact-left #information h2{
+    text-align: center;
+    font-size: 36px;
+    padding: 28px 0;
+}
+
+#contact-left #information p{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#contact-left #form form{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#contact-left #form form input[type="text"]{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: darkslateblue;
+    width: 100%;
+}
+
+#contact-left #form form input[type="email"]{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: orangered;
+    width: 100%;
+}
+
+#contact-left #form form input[type="tel"]{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: orangered;
+    width: 100%;
+}
+
+#contact-left #form form textarea{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: aquamarine;
+    width: 100%;
+}
+
+#contact-left #form form a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 80px;
+    margin: 20px 0;
+}
+
+#contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+#contact-right #map iframe{
+    margin: 20px 0;
+}
+
+#contact-right ul{
+    margin: 20px 0;
+}
+
+#contact-right ul li{
+    list-style: none;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+/*-----------------------------------------------------*/
+
+/*FOOTER*/
+footer{
+    background-color: azure;
+    text-align: center;
+}

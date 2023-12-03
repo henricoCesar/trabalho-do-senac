@@ -1,0 +1,76 @@
+/*celular*/
+@media screen and (min-width:320px) and (max-width:425px) {
+    header {
+        width: 100%;
+    }
+
+    #cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact-left {
+        width: 100%;
+        padding: 0 20px
+    }
+
+    #contact-right {
+        width: 100%;
+    }
+
+    #btn-form {
+        width: 100%;
+    }
+
+    #contact-left #form form a {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    header {
+        width: 770px;
+    }
+    #cards {
+        width: 770px;
+    }
+
+    .card {
+        height: 500px;
+        margin: 0 8px;
+    }
+
+
+    #map {
+        width: 100%;
+
+    }
+
+    #contact-left {
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    #contact-right {
+        width: 50%;
+    }
+
+    #contact-left #form form a {
+        width: 100%;
+    }
+
+    #contact-left #form form textarea {
+        margin: 5px 0;
+    }
+
+}
